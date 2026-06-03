@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "title_en": "Tsumiki Pyramid",
+    "title_de": "Tsumiki-Pyramide",
+    "text_en": "by Kengo Kuma<br>A pyramid made out of cedar wood components",
+    "text_de": "von Kengo Kuma<br>Pyramide aus Zedernholz-Bauteilen",
+    "imagePath": "images/tsumiki-1.png",
+     "imagePosition": {
+      "top": "250px",
+      "left": "10%",
+      "width": "300px"
+    }
+  },
+  {
+    "id": 2,
+    "title_en": "What is Tsumiki?",
+    "title_de": "Was ist Tsumiki? ",
+    "text_en": "Tsumiki (積み木) is the Japanese word for wooden building blocks. Literally translated, it means “stacked wood”. Unlike traditional wooden building blocks, Kengo Kuma’s Tsumiki consists of a set of lightweight, triangular cedar pieces designed to branch upward like growing twigs.",
+    "text_de": "„Tsumiki“ (積み木) ist das japanische Wort für Holzbausteine. Wörtlich übersetzt bedeutet der Ausdruck „Holz stapeln“. Im Gegensatz zu traditionellen Holzbausteinen besteht Kengo Kumas Tsumiki aus leichten, dreieckigen Zedernholzteilen – gestaltet in der Form sich nach oben verästelnder Zweige.",
+    "imagePath": "images/tsumiki-2.png",
+    "imagePosition": {
+      "top": "300px",
+      "right": "-30px",
+      "width": "250px",
+      "height": "200px"
+    }
+  },
+  {
+   "id": 3,
+    "title_en": "The story <br>behind it ...",
+    "title_de": "Die<br> Geschichte <br>dahinter ...",
+    "text_en": "Kengo Kuma's Tsumiki was commissioned by the composer Ryuichi Sakamoto. In 2007, Sakamoto founded the forest conservation organization <em>more trees</em> – driven by the urgent need to take action against accelerating deforestation and the growing crisis of climate change. Under the guiding vision of \"connecting cities and forests\", Kuma now leads the organization. Originally conceived as a children's toy, the wooden forms are also used in architecture.",
+    "text_de": "Kengo Kumas Tsumiki entstand im Auftrag des Komponisten Ryuichi Sakamoto. Dieser gründete 2007 die Waldschutzorganisation <em>more trees</em> mit dem Ziel, die Biodiversität der japanischen Wälder wiederherzustellen. Unter dem Grundsatz „Städte und Wälder verbinden“ leitet Kuma heute die Organisation. Ursprünglich als Kinderspielzeug konzipiert, werden die Holzformen auch in der Architektur verwendet.",
+    "imagePath": "images/tsumiki-3.png",
+    "imagePosition": {
+      "top": "0px",
+      "right": "15px",
+      "width": "160px",
+      "height": "180px"
+    }
+  },
+  {
+    "id": 4,
+    "title_en": "The wood",
+    "title_de": "Das Holz",
+    "text_en": "After 1945, many dense cedar forests were planted as monocultures across Japan. As timber prices later declined, many of these forests were left unmanaged and forgotten. <em>More trees</em> works to revitalize these neglected forests through careful thinning, while replanting with tree species suited to the local climate and natural environment of each region. The Tsumiki shapes are handcrafted from FSC-certified cedar wood (FSC – Forest Stewardship Council). Tsumiki aims to bring people closer to environmental stewardship and offer sustainable alternatives.",
+    "text_de": "Nach 1945 wurden in Japan viele dichte Zedernwälder als Monokulturen angelegt. Als die Holzpreise später sanken, wurden viele dieser Wälder nicht mehr gepflegt und gerieten in Vergessenheit. <em>More trees</em> setzt sich dafür ein, diese vernachlässigten Wälder durch sorgfältige Lichtung wiederzubeleben und gleichzeitig Baumarten anzupflanzen, die für das lokale Klima und die natürliche Umgebung der jeweiligen Region geeignet sind. Die Tsumiki-Formen werden aus FSC-zertifiziertem Zedernholz (FSC – Forest Stewardship Council) in Handarbeit hergestellt. Ziel ist es, den Menschen Umweltschutz näherzubringen und ihnen nachhaltige Alternativen zu bieten.",
+    "imagePath": "images/tsumiki-4.png",
+    "imagePosition": {
+         "top": "-93px",
+      "right": "0px",
+      "width": "250px"
+    }
+  },
+  {
+    "id": 5,
+    "title_en": "What has been built with Tsumiki?",
+    "title_de": "Was wurde mit Tsumiki gebaut?",
+    "text_en": "Tokyo, 2015<br>Tsumiki Pavilion, as part of Tokyo Design Week.",
+    "text_de": "Tokio 2015<br>Tsumiki Pavillon als Teil der Tokyo Design Week.",
+    "imagePath": "images/tsumiki-5.png",
+    "imagePosition": {
+      "top": "250px",
+      "right": "-10px",
+      "width": "380px"
+    }
+  },
+  {
+   "id": 6,
+    "title_en": "“I used to play by myself with building blocks endlessly, and it was a big influence on me becoming an architect.”",
+    "title_de": "„Früher habe ich Ewigkeiten allein mit Bauklötzen gespielt – das hat maßgeblich dazu beigetragen, dass ich Architekt geworden bin.”",
+    "text_en": "– Kengo Kuma<br> <span class='card-text-small'> (Source: <em>more trees</em>,<br> http://more-trees-design.jp/project/tsumiki) </span>",
+    "text_de": "– Kengo Kuma<br> <span class='card-text-small'>(Quelle: <em>more trees</em>,<br> http://more-trees-design.jp/project/tsumiki)</span>",
+    "imagePath": "images/tsumiki-6.png",
+    "imagePosition": {
+      "top": "-90px",
+      "left": "80px",
+      "width": "300px",
+      "height": "170px"
+    }
+  }
+]
