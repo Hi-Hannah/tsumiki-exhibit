@@ -162,18 +162,22 @@ function renderCards() {
             card.style.setProperty('--random-rotation', rotation);
             card.style.transform = `rotate(${rotation}deg)`;
             
-            const image = document.createElement('img');
-            image.className = 'card-image';
-            image.src = cardData.imagePath;
-            image.alt = `Card ${cardData.id}`;
-            
-            const pos = cardData.imagePosition;
-            if (pos.top) image.style.top = pos.top;
-            if (pos.left) image.style.left = pos.left;
-            if (pos.right) image.style.right = pos.right;
-            if (pos.width) image.style.width = pos.width;
-            if (pos.height) image.style.height = pos.height;
-            if (pos.transform) image.style.transform = pos.transform;
+            if (cardData.imagePath) {
+                const image = document.createElement('img');
+                image.className = 'card-image';
+                image.src = cardData.imagePath;
+                image.alt = `Card ${cardData.id}`;
+                
+                const pos = cardData.imagePosition;
+                if (pos.top) image.style.top = pos.top;
+                if (pos.left) image.style.left = pos.left;
+                if (pos.right) image.style.right = pos.right;
+                if (pos.width) image.style.width = pos.width;
+                if (pos.height) image.style.height = pos.height;
+                if (pos.transform) image.style.transform = pos.transform;
+                
+                card.appendChild(image);
+            }
             
             const content = document.createElement('div');
             content.className = 'card-content';
@@ -188,7 +192,6 @@ function renderCards() {
 
             content.appendChild(title);
             content.appendChild(text);
-            card.appendChild(image);
             card.appendChild(content);
             cardStack.appendChild(card);
             
@@ -305,18 +308,22 @@ document.getElementById('btn-undo').addEventListener('click', () => {
         card.style.transform = `rotate(${rotation}deg)`;
         
         // Build the image
-        const image = document.createElement('img');
-        image.className = 'card-image';
-        image.src = restoredCardData.imagePath;
-        image.alt = `Card ${restoredCardData.id}`;
-        
-        const pos = restoredCardData.imagePosition;
-        if (pos.top) image.style.top = pos.top;
-        if (pos.left) image.style.left = pos.left;
-        if (pos.right) image.style.right = pos.right;
-        if (pos.width) image.style.width = pos.width;
-        if (pos.height) image.style.height = pos.height;
-        if (pos.transform) image.style.transform = pos.transform;
+        if (restoredCardData.imagePath) {
+            const image = document.createElement('img');
+            image.className = 'card-image';
+            image.src = restoredCardData.imagePath;
+            image.alt = `Card ${restoredCardData.id}`;
+            
+            const pos = restoredCardData.imagePosition;
+            if (pos.top) image.style.top = pos.top;
+            if (pos.left) image.style.left = pos.left;
+            if (pos.right) image.style.right = pos.right;
+            if (pos.width) image.style.width = pos.width;
+            if (pos.height) image.style.height = pos.height;
+            if (pos.transform) image.style.transform = pos.transform;
+            
+            card.appendChild(image);
+        }
         
         // Build the content
         const content = document.createElement('div');
@@ -332,7 +339,6 @@ document.getElementById('btn-undo').addEventListener('click', () => {
         
         content.appendChild(title);
         content.appendChild(text);
-        card.appendChild(image);
         card.appendChild(content);
         
         // 2. Insert it at the BEGINNING of the DOM stack (on top of others)
