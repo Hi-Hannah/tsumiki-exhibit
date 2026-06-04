@@ -9,8 +9,8 @@ let isAnimating = false;
 const END_SCREEN_DATA = {
     title_en: 'Would you like to bring a piece of this artwork home and create your own?',
     title_de: 'Möchtest du einen Teil dieses Kunstwerkes zu dir nach Hause holen und ein Eigenes kreieren?',
-    text_en: 'The Tsumiki building blocks for this pyramid are already available in our online shop. You can reserve your own set <a href="https://tchoban-foundation-shop.de/en" target="_blank" class="end-link">here</a>. After the exhibition ends, we’ll send you your set, or you can pick it up at the museum. By doing so, you’re not only making a sustainable choice, but also supporting the<em> more trees</em> project and our museum!',
-    text_de: 'Die Tsumiki-Bauteile dieser Pyramide findest du schon jetzt in unserem Online-Shop. <a href="https://tchoban-foundation-shop.de" target="_blank" class="end-link">Hier</a> kannst du dir dein eigenes Set reservieren. Nach Ende der Ausstellung schicken wir dir dein Set zu oder du kannst es im Museum abholen. Damit handelst du nicht nur nachhaltig, sondern unterstützt auch das Projekt von<em> more trees</em> und unser Museum!',
+    text_en: 'The Tsumiki building blocks for this pyramid are already available in our online shop. You can reserve your own set <a href="https://tchoban-foundation-shop.de/en/p/tsumiki-22-building-blocks" target="_blank" class="end-link">here</a>. After the exhibition ends, we’ll send you your set, or you can pick it up at the museum. By doing so, you’re not only making a sustainable choice, but also supporting the<em> more trees</em> project and our museum!',
+    text_de: 'Die Tsumiki-Bauteile dieser Pyramide findest du schon jetzt in unserem Online-Shop. <a href="https://tchoban-foundation-shop.de/p/tsumiki-22-bausteine" target="_blank" class="end-link">Hier</a> kannst du dir dein eigenes Set reservieren. Nach Ende der Ausstellung schicken wir dir dein Set zu oder du kannst es im Museum abholen. Damit handelst du nicht nur nachhaltig, sondern unterstützt auch das Projekt von<em> more trees</em> und unser Museum!',
     btn_en: 'Restart Stack',
     btn_de: 'Karten neu laden'
 };
