@@ -20,13 +20,13 @@ const INFO_MODAL_DATA = {
     title_de: 'Über das Projekt',
     text_en: `
         A project by the Tchoban Foundation –Museum for Architectural Drawing<br><br>
-        <strong>Photography</strong> <br> Ikunori Yamamoto <br> DesignHouse <br> Kengo Kuma & Associates<br><br>
+        <strong>Photography</strong> <br> Ikunori Yamamoto <br> Kengo Kuma & Associates <br>Annika Paetsch<br><br>
         <strong>Designed & developed by</strong><br> Hannah Hijazi<br><br>
         <a href="http://www.tchoban-foundation.de/8-1-Contact-Imprint.html" target="_blank">Impressum</a>
     `,
     text_de: `
         Ein Projekt der Tchoban Foundation – Museum für Architekturzeichnung <br><br>
-        <strong>Fotografie</strong><br> Ikunori Yamamoto <br> DesignHouse <br> Kengo Kuma & Associates<br><br>
+        <strong>Fotografie</strong><br> Ikunori Yamamoto <br> Kengo Kuma & Associates <br>Annika Paetsch<br><br>
         <strong>Design & Entwicklung</strong><br> Hannah Hijazi<br><br>
         <a href="http://www.tchoban-foundation.de/8-0-Kontakt-Impressum.html" target="_blank">Impressum</a>
     `
@@ -106,14 +106,7 @@ const DEFAULT_CARDS = [
     "title_en": "“I used to play by myself with building blocks endlessly, and it was a big influence on me becoming an architect.”",
     "title_de": "„Früher habe ich Ewigkeiten allein mit Bauklötzen gespielt – das hat maßgeblich dazu beigetragen, dass ich Architekt geworden bin.”",
     "text_en": "– Kengo Kuma<br> <span class='card-text-small'> (Source: <em>more trees</em>,<br> http://more-trees-design.jp/project/tsumiki) </span>",
-    "text_de": "– Kengo Kuma<br> <span class='card-text-small'>(Quelle: <em>more trees</em>,<br> http://more-trees-design.jp/project/tsumiki)</span>",
-    "imagePath": "images/tsumiki-6.png",
-    "imagePosition": {
-      "top": "-90px",
-      "left": "80px",
-      "width": "300px",
-      "height": "170px"
-    }
+    "text_de": "– Kengo Kuma<br> <span class='card-text-small'>(Quelle: <em>more trees</em>,<br> http://more-trees-design.jp/project/tsumiki)</span>"
   }
 ];
 
