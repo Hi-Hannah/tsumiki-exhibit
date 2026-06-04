@@ -106,8 +106,15 @@ const DEFAULT_CARDS = [
     "title_en": "“I used to play by myself with building blocks endlessly, and it was a big influence on me becoming an architect.”",
     "title_de": "„Früher habe ich Ewigkeiten allein mit Bauklötzen gespielt – das hat maßgeblich dazu beigetragen, dass ich Architekt geworden bin.”",
     "text_en": "– Kengo Kuma<br> <span class='card-text-small'> (Source: <em>more trees</em>,<br> http://more-trees-design.jp/project/tsumiki) </span>",
-    "text_de": "– Kengo Kuma<br> <span class='card-text-small'>(Quelle: <em>more trees</em>,<br> http://more-trees-design.jp/project/tsumiki)</span>"
-  }
+    "text_de": "– Kengo Kuma<br> <span class='card-text-small'>(Quelle: <em>more trees</em>,<br> http://more-trees-design.jp/project/tsumiki)</span>",
+    "imagePath": "images/tsumiki-5.png",
+    "imagePosition": {
+      "top": "250px",
+      "right": "-10px",
+      "width": "0px"
+    }
+ 
+}
 ];
 
 function getRandomRotation() {
